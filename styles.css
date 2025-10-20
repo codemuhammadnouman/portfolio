@@ -192,3 +192,13 @@ section {
   background: #ffd700;
   color: #005f99;
 }
+
+footer {
+  background: #007acc;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 60px;
+}
+
