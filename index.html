@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nouman Portfolio</title>
+    <meta name="description" content="Muhammad Nouman Ali - Aspiring Front-End Developer specializing in HTML, CSS, JavaScript, and React. View my portfolio and projects.">
+    <title>Muhammad Nouman Ali | Front-End Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
 </head>
 <body>
     <nav id="navbar">
@@ -20,67 +19,75 @@
         <a href="#contact">Contact</a>
     </nav>
 
-    <section id="home">
-        <h1>Hi, I'm Muhammad Nouman</h1>
-        <p>I’m an aspiring Front-End Developer passionate about building modern, responsive websites.<br>
-        Currently learning with Meta on Coursera and growing my skills in HTML, CSS, and JavaScript.</p>
-        <p><strong>Welcome to my portfolio!</strong></p>
-    </section>
-    
-    <section id="about">
-        <h1>About Me</h1>
-        <p>Hi, I’m Muhammad Nouman Ali — an aspiring Front-End Developer passionate about creating responsive and modern web interfaces.<br>
-            I started my journey with HTML and CSS and am currently learning through Meta’s Front-End Development course on Coursera.<br>
-            I’m focused on mastering HTML, CSS, JavaScript, and React to build clean, efficient, and user-friendly websites.<br>
-            I enjoy solving problems, learning new technologies, and turning creative ideas into functional designs.<br>
-            Outside of coding, I’m curious about technology, design, and continuous self-learning.</p>
+    <section id="home" aria-label="Home">
+        <h1 class="fade-in">Hi, I'm Muhammad Nouman Ali</h1>
+        <p class="fade-in">Aspiring Front-End Developer passionate about building modern, responsive websites.</p>
+        <p class="fade-in">Currently learning with Meta on Coursera and growing my skills in HTML, CSS, and JavaScript.</p>
     </section>
 
-    <section id="skill">
-        <h1>Skill</h1>
-        <h2>Languages & Tools:</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript <strong>(learning)</strong></li>
-                <li>React <strong>(Upcoming)</strong></li>
-                <li>Git & Github</li>
-                <li>Visual Studio Code</li>
-                <li>Responsive Design</li>
-            </ul>
-        <h2>Soft Skills:</h2>
-        <p>
-            <ul>
-                <li>Problem Solving</li>
-                <li>Teamwork</li>
-                <li>Time Management</li>
-                <li>Communication</li>
-            </ul>
-        </p>
+    <section id="about" aria-label="About Me">
+        <h2>About Me</h2>
+        <p>Hi, I'm Muhammad Nouman Ali — an aspiring Front-End Developer passionate about creating responsive and modern web interfaces. I started my journey with HTML and CSS and am currently learning through Meta's Front-End Development course on Coursera.</p>
+        <p>I'm focused on mastering HTML, CSS, JavaScript, and React to build clean, efficient, and user-friendly websites. I enjoy solving problems, learning new technologies, and turning creative ideas into functional designs.</p>
+        <p>Outside of coding, I'm curious about technology, design, and continuous self-learning.</p>
     </section>
 
-    <section id="projects">
-        <h1>Projects</h1>
-        <h2>Calculator App <i>(Upcoming)</i></h2>
-        <p>Upcoming</p>
-
-        <h2>Portfolio Webiste <i>(In Progress)</i></h2>
-        <p>A personal website to showcase my skills, projects, and learning journey.</p>
+    <section id="skill" aria-label="Skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Languages & Tools</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript <span class="badge">(learning)</span></li>
+                    <li>React <span class="badge">(Upcoming)</span></li>
+                    <li>Git & GitHub</li>
+                    <li>Visual Studio Code</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Teamwork</li>
+                    <li>Time Management</li>
+                    <li>Communication</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h1>Contact</h1>
+    <section id="projects" aria-label="Projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <article class="project-card">
+                <h3>Portfolio Website <span class="status in-progress">In Progress</span></h3>
+                <p>A personal website to showcase my skills, projects, and learning journey. Built with HTML, CSS, and JavaScript.</p>
+            </article>
+            <article class="project-card">
+                <h3>Calculator App <span class="status upcoming">Upcoming</span></h3>
+                <p>A functional calculator application to practice JavaScript logic and DOM manipulation.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" aria-label="Contact">
         <h2>Get in Touch</h2>
-        <p>I’m open to collaboration, learning, and internship opportunities. Feel free to connect or send me a message!</p>
-        <p>
-                <a href="mailto:code.muhammadnoumanali@gmail.com">Email</a>
-                <a href="https://www.linkedin.com/in/codemuhammadnouman" target="_blank">Linkedin</a>
-                <a href="https://github.com/codemuhammadnouman" target="_blank">Github</a>
-        </p>
+        <p>I'm open to collaboration, learning, and internship opportunities. Feel free to connect or send me a message!</p>
+        <div class="contact-links">
+            <a href="mailto:code.muhammadnoumanali@gmail.com" aria-label="Email Muhammad Nouman Ali">Email</a>
+            <a href="https://www.linkedin.com/in/codemuhammadnouman" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">LinkedIn</a>
+            <a href="https://github.com/codemuhammadnouman" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">GitHub</a>
+        </div>
     </section>
 
 
-    <footer><p>© 2025 Muhammad Nouman Ali | Built with ❤️ using HTML</p></footer>
+    <footer>
+        <p>&copy; 2025 Muhammad Nouman Ali. All rights reserved.</p>
+    </footer>
 
+    <script type="module" src="main.js"></script>
 </body>
 </html>
