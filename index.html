@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/src/index.css">
 </head>
 <body>
     <nav id="navbar">
@@ -20,9 +20,18 @@
     </nav>
 
     <section id="home" aria-label="Home">
-        <h1 class="fade-in">Hi, I'm Muhammad Nouman Ali</h1>
-        <p class="fade-in">Aspiring Front-End Developer passionate about building modern, responsive websites.</p>
-        <p class="fade-in">Currently learning with Meta on Coursera and growing my skills in HTML, CSS, and JavaScript.</p>
+        <div class="home-content">
+            <div class="home-left">
+                <h1 class="fade-in">Hi, I'm Muhammad Nouman Ali</h1>
+                <p class="fade-in">Aspiring Front-End Developer passionate about building modern, responsive websites.</p>
+                <p class="fade-in">Currently learning with Meta on Coursera and growing my skills in HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="home-right">
+                <div class="profile-image-wrapper">
+                    <img src="pfp/nouman pic.jpg" alt="Muhammad Nouman Ali Profile" class="profile-image">
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="about" aria-label="About Me">
@@ -83,11 +92,10 @@
         </div>
     </section>
 
-
     <footer>
         <p>&copy; 2025 Muhammad Nouman Ali. All rights reserved.</p>
     </footer>
 
-    <script type="module" src="main.js"></script>
+    <script type="module" src="/src/main.js"></script>
 </body>
 </html>

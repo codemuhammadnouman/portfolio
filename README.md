@@ -1,43 +1,68 @@
-# Portfolio Website
+# Portfolio Website (React + TypeScript + Vite)
 
-This is my personal portfolio website built using HTML, CSS, and JavaScript. It showcases my journey as an aspiring Front-End Developer, my skills, and the projects I’ve been working on. The design is focused on clarity, responsiveness, and a smooth user experience.
+This is my personal portfolio website built using React, TypeScript, and Vite. It showcases my work, skills, and projects as a front-end developer with a focus on modern, responsive design.
 
 ## Overview
 
-The portfolio includes sections for my introduction, background, skills, projects, and contact details. It features smooth animations, responsive design, and a fixed navigation bar that highlights the section currently in view. The layout is built with clean, semantic HTML and modern CSS styling.
+The portfolio presents sections for introduction, background, skills, projects, and contact. It follows a clean layout with smooth transitions, organized code, and responsive behavior on all screen sizes.
 
 ## Features
 
-- Responsive layout that adapts to all screen sizes  
-- Fixed navigation bar with active link highlighting  
-- Smooth scrolling and fade-in animations for a modern look  
-- Section-based structure: Home, About, Skills, Projects, and Contact  
-- Reusable CSS components and clear organization  
-- Contact links for email, LinkedIn, and GitHub  
+* Responsive layout compatible with all devices
+* Smooth scrolling and subtle animations
+* Two-column design with right-side profile image
+* Organized component-based structure
+* Modern UI with continuous blue gradient background
+* Clean and maintainable TypeScript code
 
 ## Technologies Used
 
-- HTML5  
-- CSS3 (Flexbox, gradients, animations, media queries)  
-- JavaScript (scroll effects and dynamic navigation)  
+* React
+* TypeScript
+* Vite
+* CSS3 (Flexbox, Grid, animations)
+* HTML5
 
-## What I Learned
+## Project Structure
 
-Building this portfolio helped me improve in several key areas:
-- Structuring a multipage-style layout within a single-page application  
-- Using JavaScript for interactivity and scroll-based effects  
-- Writing clean, maintainable CSS with reusable variables and consistent spacing  
-- Making design decisions focused on readability and user experience  
+```
+Nouman-Portfolio/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+```
+
+## Getting Started
+
+To run the project locally:
+
+```bash
+git clone https://github.com/codemuhammadnouman/portfolio.git
+cd "Nouman Portfolio"
+npm install
+npm run dev
+```
+
+Then open [http://localhost:5173/](http://localhost:5173/) in your browser.
 
 ## Future Improvements
 
-- Add more detailed project pages or live links  
-- Integrate a contact form with JavaScript or backend service  
-- Improve accessibility with ARIA roles and labels  
-- Add dark/light mode toggle  
+* Add dark and light theme toggle
+* Integrate contact form with backend service
+* Add detailed project case studies
+* Improve accessibility (ARIA roles and keyboard navigation)
 
 ## Author
 
-Muhammad Nouman Ali  
-Front-End Developer  
-Focused on building modern, responsive, and user-centered web applications.
+**Muhammad Nouman Ali**
+Front-End Developer
+Focused on building modern, responsive, and accessible web applications.
